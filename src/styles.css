@@ -1,0 +1,26 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.sperator {
+  width: 100%;
+  background-color: black;
+  height: 1px;
+  margin: 5px;
+}
+.result {
+  font-size: 25px;
+  color: blue;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.correctPass {
+  color: green;
+}
+.inCorrectPass {
+  color: red;
+}
