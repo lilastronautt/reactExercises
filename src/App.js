@@ -9,6 +9,10 @@ export default function App() {
   const [pass, setPass] = useState();
   const [confirmPass, setConfirmPass] = useState();
   const [passRes, setPassRes] = useState();
+  
+  const onChangePasword = (event) => {
+     setPass(event.target.value)
+  }
 
   return (
     <div className="App">
@@ -34,7 +38,7 @@ export default function App() {
           <div>
             <label>Enter Password </label>
             <input
-              onChange={(e) => setPass(e.target.value)}
+              onChange={onChangePassword}
               name="pwd"
               type="password"
             ></input>
